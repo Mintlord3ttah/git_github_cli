@@ -1,0 +1,16 @@
+GIT AND GITHUB DEFINITION
+**GIT - git is a version control mechanism that is used to basically keep track of changes made to files
+--and enabling access to older versions of the changes made to that file or programme
+**GITHUB - github is a platform that is built on top of git to enhance remote repositories. In other words,
+--github let's users (developers) to save their commited files and programes to its host server which 
+--guarantees the file's safety and accessibility.
+
+GIT CLI (COMMAND LINE INTERFACE)
+1-git init: initialise a folder to use version control. often called repository
+2-git status: check the state of files
+3-git add: move files to the staging phase
+4-git commit: make permenent changes after staging
+5-git commit -m: -m flag used to include a message about changes when commiting
+6-git rm --cached <file>: unstage files or remove files from the staging phase
+7-git log: inspect all activities and changes
+8-git restore --staged <file>: unstage files or remove files from the staging phase
