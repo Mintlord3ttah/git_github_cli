@@ -1,0 +1,4 @@
+.DS_Store
+index.html
+#comments are written with the hash symbol
+# *.txt: asterics indicating to include all files with the extension of .txt to .gitignore

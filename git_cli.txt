@@ -5,12 +5,21 @@ GIT AND GITHUB DEFINITION
 --github let's users (developers) to save their commited files and programes to its host server which 
 --guarantees the file's safety and accessibility.
 
-GIT CLI (COMMAND LINE INTERFACE)
+GIT CLI (COMMAND LINE INTERFACE) - local implementations
 1-git init: initialise a folder to use version control. often called repository
 2-git status: check the state of files
 3-git add: move files to the staging phase
 4-git commit: make permenent changes after staging
 5-git commit -m: -m flag used to include a message about changes when commiting
-6-git rm --cached <file>: unstage files or remove files from the staging phase
+6-git rm --cached (-r) <file>: unstage files or remove files from the staging phase
 7-git log: inspect all activities and changes
 8-git restore --staged <file>: unstage files or remove files from the staging phase
+9-git checkout <file>: restore/roll back to the previous changes/commit made to the file
+
+GIT/GIHUB REPOSITORY (REMOTE REPOSITORY) - global implementations
+1-create a remote repository on github and copy the link to it
+2-run the command **git remote add origin <copied link>**
+3-git push -u origin main: to push local repo to remote repo
+
+GITIGNORE (hiding secrete/sensitive information and files on github)
+1-.gitignore file is used to hide sensitive files and information.
